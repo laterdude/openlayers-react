@@ -1,0 +1,46 @@
+{
+  "name": "openlayers-react",
+  "version": "0.0.0",
+  "description": "OpenLayers 3 + React",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "cross-env NODE_ENV=production UV_THREADPOOL_SIZE=100 webpack --config ./webpack.config"
+  },
+  "keywords": [
+    "redux",
+    "react"
+  ],
+  "author": "Armando Magalhães",
+  "license": "MIT",
+  "dependencies": {
+    "openlayers": "^3.3.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.5.1",
+    "react-toolbox": "^1.0.2",
+    "redux": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-eslint": "^6.0.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-react-transform": "2.0.2",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.16.0",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.6.2",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "jsx-loader": "^0.13.2",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.12.0",
+    "webpack": "1.13.1",
+    "webpack-dev-middleware": "1.6.1",
+    "webpack-hot-middleware": "2.10.0"
+  }
+}
